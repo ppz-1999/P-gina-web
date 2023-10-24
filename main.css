@@ -1,0 +1,31 @@
+.carousel-inner {
+    max-height: 39rem;
+}
+
+@media (max-widt: 768px) {
+   #aercadenosotros{
+    width: 90%;
+}
+}
+
+.servicio-fila {
+    width: 100% !important;
+    text-align:center;
+}
+
+@media(max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content:center !important;
+}
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
